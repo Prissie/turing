@@ -1,0 +1,15 @@
+{
+    "name": "ronaldorodrigues/turing",
+    "type": "project",
+    "description": "Minimal framework para a utilização de desenvolvimento de pequenos projetos.",
+    "keywords": ["mini-framework", "autenticação", "São Paulo", "Brasil", "MVC"],
+    "homepage": "https://github.com/RonaldoRodrigues",
+    "license": "MIT",
+    "require-dev": {
+        "php": ">=5.5.0",
+        "phpmailer/phpmailer": ">=5.2"
+    },
+    "autoload": {
+        "psr-4": { "": ["nucleo/", "modelos/"] }
+    }
+}
