@@ -4,7 +4,7 @@
 
 
 Um simples framework que funciona utilizando todos os recusos do PHP 5.5+, tem alguns recursos que irão te poupar
-tempo no desenvolvimento de uma simples aplicação. Projeto desenvolvido para ser simples, feito para pequenos projetos é nada mais. Se deseja construir aplicações robustas sugiro [Laravel](http://laravel.com), mas se desejar à simplicidade e algo rápido esse conjunto de scripts poderá ser interesante para você.
+tempo no desenvolvimento de uma simples aplicação.Se deseja construir aplicações robustas sugiro [Laravel](http://laravel.com), mas se desejar à simplicidade e algo rápido esse conjunto de scripts poderá ser interesante para você.
 
  
 # Licença
