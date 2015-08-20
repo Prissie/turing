@@ -17,6 +17,14 @@ software e arquivos de documentação associados (o "Software"), para lidar sem 
 
 Foi desenvolvido um conjunto de scripts para o desenvolvimento mais ágil de pequenas aplicações, o nome escolhido é o sobrenome de Alan [Turing](https://pt.wikipedia.org/wiki/Alan_Turing).
 
+
+#Atualizações Futuras
+
+ - Reduzir o uso de statics
+ - Documentar e refazer nome de classes, métodos e classes em inglês.
+ - Tentar reduzir o número de arquivos e deixar mais simples.
+
+
 # Funcionalidades
 
   - Desenvolvida com as bases mordernas de desenvolvimento em php;
