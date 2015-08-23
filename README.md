@@ -1,4 +1,4 @@
 
-# Turing;
+# Turing
 
-Small Framework For Basic Applications;
+Small framework for Basic Applications;

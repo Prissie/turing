@@ -7,9 +7,15 @@
 
 namespace app\core;
 
+use app\core\Request as Request;
+
 class Config {
 
 	private $configs = array();
+
+	public function __construct(){
+		Self::load(Request::pathConfig());
+	}
 
 	/**
      * Load and set values of configurations
