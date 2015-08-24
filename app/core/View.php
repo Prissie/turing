@@ -8,9 +8,7 @@ use app\core\Session as Session;
 
 class View
 {
-    
- 
-    public static function Json($data)
+    public function Json($data)
     {
         echo json_encode($data);
     }
@@ -18,16 +16,6 @@ class View
 
     public function render($filename, $data = null)
     {
-        $config = new Config();
-        if($config->get('system','maintenance') == '1'){
-             require Request::pathView().'manutencao/index.php';
-             exit();
-        }
-
-        if($config->get('system','debug') == '1'){
-             require Request::pathView().'debug/index.php';
-        }
-
       
         if ($data) {
             foreach ($data as $key => $value) {
@@ -64,7 +52,8 @@ class View
         Sessao::setar('fail', null);
     }
 
-    public static function checkForAtiveController($file, $navigationController)
+
+    public function check($file, $navigationController)
     {
         $split = explode("/", $file);
         $ativeController = $split[0];
@@ -74,6 +63,11 @@ class View
         }
 
         return false;
+    }
+
+    public function asset($file)
+    {
+        echo $file;
     }
 
 

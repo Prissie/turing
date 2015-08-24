@@ -14,7 +14,11 @@ ini_set("display_errors", 1);
 require "../app/core/Autoload.php";
 
 use app\core\Application as Application;
+use app\core\Crud as Crud;
 
+$worker = new Crud();
+
+/*
 $application = new Application();
-
+*/
 ?>

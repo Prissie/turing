@@ -33,6 +33,11 @@ class Request {
 	public static function pathView(){
 		return realpath(dirname(__FILE__).'/../') . '/view/';
 	}
+
+	public static function pathPublic(){
+		return realpath(dirname(__FILE__).'/../../') . '/public/';
+	}
+
 	public static function pathController(){
 		return realpath(dirname(__FILE__).'/../') . '/controller/';
 	}
@@ -40,6 +45,12 @@ class Request {
 	public static function pathConfig(){
 		return realpath(dirname(__FILE__).'/../../') . '/config.ini';
 	}
+
+	public static function pathLib(){
+		return realpath(dirname(__FILE__).'/../../') . '/lib/';
+	}
+
+
 
 	public static function home()
 	{
